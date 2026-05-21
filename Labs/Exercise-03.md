@@ -92,7 +92,7 @@ In this task, you will configure automated evaluation using built-in metrics to 
 
 1. Navigate back to **Microsoft Foundry**, where your **creating a new evaluation**.
    
-    - **Configure test data:** Click on the **ellipsis (1)** and select **Upload new dataset (2)**
+    - **Configure test data:** Click on the **Upload new dataset**
   
          ![](./media/L3T2S4.1-0203.png)
 
@@ -130,7 +130,7 @@ In this task, you will configure automated evaluation using built-in metrics to 
      
      ![](./media/lab1-04-13.png)
      
-1. Wait until the evaluation status changes to **Completed**. If the status shows **Queued** or **Running**, you may need to refresh the page to see the latest update.
+1. Wait until the evaluation status changes to **Completed**. If the status shows **Queued** or **Running** (2), you may need to **Refresh(1)** the page to see the latest update.
 
    ![](./media/lab1-04-14.png)
 
@@ -138,9 +138,12 @@ In this task, you will configure automated evaluation using built-in metrics to 
 
    ![](./media/lab1-04-15.png)
 
+    >Wait for the status to complete, then open Evaluation. There you will find the Report Tab.
+
 1. Under the **Report** tab, scroll down to explore the **Metric dashboard**.
 
     ![](./media/4-7-25-l3-11.png)
+
 
 1. Navigate to **Data (1)** tab from the top menu to view the **Detailed metrics results (2)**.    
 

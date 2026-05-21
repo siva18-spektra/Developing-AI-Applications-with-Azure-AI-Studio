@@ -215,6 +215,9 @@ We have a bulk dataset of images provided by customers. The dataset also include
 
     ![](./media/image-80.png)
 
+    >The allowed and blocked percentage might be diffrent for you.
+
+
 ## Summary
 
 In this lab, you have completed the following tasks:
@@ -224,4 +227,5 @@ In this lab, you have completed the following tasks:
 
 ## You have successfully completed this Hands-on lab.
 
+## Conclusion:
 By completing this **Developing AI Applications with Microsoft Foundry** hands-on lab, you have gained hands-on experience in building, evaluating, and fine-tuning AI applications using Microsoft Foundry Prompt Flow. You explored the full development lifecycle, implemented prompt and chat flows, applied evaluation metrics, and optimized model performance. Additionally, you learned how to integrate Responsible AI and content safety practices to ensure secure, reliable, and production-ready AI solutions.
