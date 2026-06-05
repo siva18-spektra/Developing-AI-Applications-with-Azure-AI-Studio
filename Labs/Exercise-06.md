@@ -1,4 +1,4 @@
-# 🚀 Lab 06: Ensuring Responsible AI Practices with Content Safety 
+# Lab 06: Ensuring Responsible AI Practices with Content Safety 
 
 #### ⏱️ Estimated Duration: 90 Minutes
 
@@ -6,7 +6,7 @@
 
 You are a prompt engineer at Contoso Travel tasked with building a responsible conversational assistant. In this lab, you will implement content safety checks for both images and text, validate the system with safe and unsafe examples, and confirm the solution meets Contoso’s responsible AI standards.
 
-## 🧭 Overview
+## 📘 Overview
 
 This lab provides hands-on experience in implementing responsible AI practices using Microsoft Foundry. Participants will gain insights into fairness, transparency, privacy, and security considerations while leveraging Azure’s built-in Responsible AI tools. The lab focuses on detecting and mitigating biases, ensuring model interpretability, applying privacy-preserving techniques, and enforcing security and compliance best practices.
 
@@ -28,7 +28,7 @@ In this task, you will use Microsoft Foundry to moderate both images and text by
 
      ![](./media/L6T1S2-1911.png)
 
-3. Scroll down, On **Moderate image content** select **Run a simple test (1)** tab, and review the options. Note we have three sets of content:  **Safe content**, **self-harm content**, and **AI-generated sexual content**. **(2)**
+3. Scroll down, on **Moderate image content** select **Run a simple test (1)** tab, and review the options. Note we have three sets of content:  **Safe content**, **self-harm content**, and **AI-generated sexual content**. **(2)**
 
      ![](./media/L6T1S3-1911.png)
 
@@ -80,7 +80,7 @@ Now, let’s test an image that contains self-harm content. We expect the model 
 
      ![](./media/selfharm2.png)
 
-### 1.1️⃣ Task 1.1: Run a bulk test
+### Task 1.1: Run a bulk test
 
 In this task, we will test a bulk dataset of images provided by customers. The dataset also includes sample harmful images to test the model’s ability to detect harmful content. Each record in the dataset includes a label to indicate whether the content is harmful. 
 
@@ -105,7 +105,7 @@ Let’s do another test round, but this time with the data set!
 
    ![](./media/selfharm4.png)
 
-### 1.2️⃣ Task 1.2: Text moderation using Moderate text content 
+### Task 1.2: Text moderation using Moderate text content 
 
 In this task, we will analyze text content for safety, including safe and harmful text, as well as misspellings. We will also perform bulk testing on a dataset of text content.
 

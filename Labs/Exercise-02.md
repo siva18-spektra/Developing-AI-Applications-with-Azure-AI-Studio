@@ -1,4 +1,4 @@
-# 🚀 Lab 02: Building and Customizing Prompt Flows
+# Lab 02: Building and Customizing Prompt Flows
 
 #### ⏱️ Estimated Duration: 90 Minutes
 
@@ -123,7 +123,7 @@ In this task, you will focus on creating and customizing prompts by designing ta
    - Model version: **2025-04-14 (Default) (3)**
    - AI resource: select **ai-modelhub<inject key="DeploymentID" enableCopy="false"/> (4)**
    - Tokens per Minute Rate Limit (thousands): **5 K (5)**
-      > **Note:** Use the &rarr; (right arrow) key on the keyboard to set the Enqueued Tokens (Limit) to 5k.
+      > **Note:** Use the &rarr; (right arrow) key on the keyboard to set the Enqueued Tokens (Limit) to 5K.
    - Content filter: **DefaultV2 (6)**
    - Select **Connect and deploy (7)**
 

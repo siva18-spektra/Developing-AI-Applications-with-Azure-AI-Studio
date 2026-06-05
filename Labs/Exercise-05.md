@@ -1,4 +1,4 @@
-# 🚀 Lab 05: Implementing Chat Flow and Tool Integration
+# Lab 05: Implementing Chat Flow and Tool Integration
 
 #### ⏱️ Estimated Duration: 60 Minutes
 
@@ -6,7 +6,7 @@
 
 You are a prompt engineer at Contoso Travel, building a conversational travel assistant using Microsoft Foundry. In this lab, you will create a working chat flow connected to a deployed language model, validate it with sample user queries, and publish the flow so it can be consumed as a chat endpoint.
 
-## 🧭 Overview
+## 📘 Overview
 
 In this lab, you will be designing and implementing a chat flow to interact with a deployed language model. You will start by creating a basic chat flow using Microsoft Foundry, which includes integrating inputs, an LLM node, and configuring the output to reflect chat responses. You will then test the chat flow, ensure it functions correctly, and deploy it to a production environment.
 
@@ -41,7 +41,7 @@ In this task, you will design and implement a chat flow using Microsoft Foundry 
    - Model version: **2025-04-14 (Default) (3)**
    - Connected AI resource: select **ai-modelhub<inject key="DeploymentID" enableCopy="false"/> (4)**
    - Tokens per Minute Rate Limit: **10K (5)**
-      > **Note:** Use the &rarr; (right arrow) key on the keyboard to set the Enqueued Tokens (Limit) to 10k.
+      > **Note:** Use the &rarr; (right arrow) key on the keyboard to set the Enqueued Tokens (Limit) to 10K.
    - Content Filter: **DefaultV2 (6)**
    - Select **Deploy (7)**
 

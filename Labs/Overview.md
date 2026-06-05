@@ -1,8 +1,8 @@
-# 🚀 Developing AI Applications with Microsoft Foundry
+# Developing AI Applications with Microsoft Foundry
 
 #### ⏱️ Overall Estimated Duration: 8 Hours
 
-## 💡 Lab Scenario
+## 💡 Scenario
 
 Imagine you are part of the Contoso customer success team for a retail business that needs to automate support ticket triage, deliver consistent product recommendations, and ensure every customer interaction follows responsible AI guidelines. In this lab, you'll build and evaluate prompt flows that transform real customer questions into reliable responses, refine prompts to improve model accuracy, and implement chat flows that integrate with tools such as recommendation engines and moderation systems. This hands-on scenario reflects a real-world business challenge: using AI to make customer-facing operations faster, smarter, and safer.
 
@@ -10,7 +10,7 @@ Imagine you are part of the Contoso customer success team for a retail business 
 
 In this lab, you will learn how to develop AI applications using Microsoft Foundry's Prompt Flow. The lab will cover the entire lifecycle of flow development, including building and customizing prompt flows, evaluating model performance, fine-tuning prompts for optimal results, implementing chat flows with tool integration, and ensuring responsible AI practices with content safety measures. By the end of this lab, you will have hands-on experience in creating and refining AI models using Microsoft Foundry.
 
-## 🎯 Objective
+## 🎯 Objectives
 
 This lab is designed to equip participants with hands-on experience in model evaluation and fine-tuning using Microsoft Foundry Prompt Flow. By completing this lab, participants will learn to:
 
@@ -55,7 +55,7 @@ The architecture for this lab involves the following key components:
   
 ## 🚀 Getting Started with the Lab
 
-We've prepared a seamless environment for you to explore and learn about the connection between creating, evaluating, and fine-tuning AI models using Prompt Flow. Let's begin by making the most of this experience:
+Welcome to your **Developing AI Applications with Microsoft Foundry** Workshop! We've prepared a seamless environment for you to explore and learn about Copilot Studio and its utilization. Let's begin by making the most of this experience::
 
 ## 🔑 Accessing Your Lab Environment
 
@@ -87,7 +87,7 @@ Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from
 
 ## 🔎 Lab Guide Zoom In/Zoom Out
 
-To adjust the zoom level for the environment page, click the **A↕: 100%** icon located next to the timer in the lab environment.
+To adjust the zoom level for the environment page, click the **A↕** icon located next to the timer in the lab environment.
 
 ![Zoom In/Zoom Out](./media/lab1-z.png)  
 

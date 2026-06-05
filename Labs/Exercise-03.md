@@ -1,4 +1,4 @@
-# 🚀 Lab 03: Evaluation Flow Setup
+# Lab 03: Evaluation Flow Setup
 
 #### ⏱️ Estimated Duration: 90 Minutes
 
