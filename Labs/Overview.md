@@ -10,7 +10,7 @@ Imagine you are part of the Contoso customer success team for a retail business 
 
 In this lab, you will learn how to develop AI applications using Microsoft Foundry's Prompt Flow. The lab will cover the entire lifecycle of flow development, including building and customizing prompt flows, evaluating model performance, fine-tuning prompts for optimal results, implementing chat flows with tool integration, and ensuring responsible AI practices with content safety measures. By the end of this lab, you will have hands-on experience in creating and refining AI models using Microsoft Foundry.
 
-## 🎯 Objectives
+## 🎯 Objective
 
 This lab is designed to equip participants with hands-on experience in model evaluation and fine-tuning using Microsoft Foundry Prompt Flow. By completing this lab, participants will learn to:
 
