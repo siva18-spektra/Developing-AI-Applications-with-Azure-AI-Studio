@@ -1,12 +1,16 @@
-# Developing AI Applications with Microsoft Foundry
+# 🚀 Developing AI Applications with Microsoft Foundry
 
-#### Overall Estimated Duration: 8 Hours
+#### ⏱️ Overall Estimated Duration: 8 Hours
 
-## Overview
+## 💡 Lab Scenario
+
+Imagine you are part of the Contoso customer success team for a retail business that needs to automate support ticket triage, deliver consistent product recommendations, and ensure every customer interaction follows responsible AI guidelines. In this lab, you'll build and evaluate prompt flows that transform real customer questions into reliable responses, refine prompts to improve model accuracy, and implement chat flows that integrate with tools such as recommendation engines and moderation systems. This hands-on scenario reflects a real-world business challenge: using AI to make customer-facing operations faster, smarter, and safer.
+
+## 📘 Overview
 
 In this lab, you will learn how to develop AI applications using Microsoft Foundry's Prompt Flow. The lab will cover the entire lifecycle of flow development, including building and customizing prompt flows, evaluating model performance, fine-tuning prompts for optimal results, implementing chat flows with tool integration, and ensuring responsible AI practices with content safety measures. By the end of this lab, you will have hands-on experience in creating and refining AI models using Microsoft Foundry.
 
-## Objective 
+## 🎯 Objective
 
 This lab is designed to equip participants with hands-on experience in model evaluation and fine-tuning using Microsoft Foundry Prompt Flow. By completing this lab, participants will learn to:
 
@@ -22,23 +26,22 @@ This lab is designed to equip participants with hands-on experience in model eva
 
 - **Ensure Responsible AI Practices AI with Content Safety:** This lab offers hands-on experience in applying responsible AI principles using Microsoft Foundry. Participants will explore key aspects such as fairness, transparency, privacy, and security while utilizing Azure’s built-in Responsible AI tools. The session focuses on identifying and addressing biases, enhancing model interpretability, implementing privacy-preserving techniques, and ensuring security and compliance adherence.
 
-## Prerequisites 
+## ✅ Prerequisites
 
-Participants should have:
-Basic knowledge and understanding of the following
+- Active Azure subscription with access Microsoft Foundry.(Provided)
+- Valid Azure AD account with Contributor-level permissions in the target subscription or resource group. (provided)
+- Access to Azure Portal and Foundry from your lab VM or workstation.(provided)
+- Basic familiarity with Azure Portal and cloud resource deployment.
 
- - Azure Portal
- - Microsoft Foundry
-
-## Architecture
+## 🏛️ Architecture
 
 This architecture flow demonstrates the end-to-end lifecycle of developing AI solutions using Microsoft Foundry. It begins with understanding different types of flows and how they function, followed by building and customizing prompt flows using LLMs and integrated tools. You’ll then evaluate the flow’s performance with structured metrics, fine-tune prompts for optimal output, and implement chat-based flows for interactive experiences. Finally, the architecture ensures responsible AI practices by applying content safety controls to detect and mitigate harmful or inappropriate outputs, enabling the creation of secure, efficient AI applications.
 
-## Architecture Diagram: 
+## 🖼️ Architecture Diagram
 
   ![](./media/arch-diag-1911.png)
 
-## Explanation of Components
+## 🧩 Explanation of Components
 
 The architecture for this lab involves the following key components:
 
@@ -50,45 +53,45 @@ The architecture for this lab involves the following key components:
 - **Prompt Tool:** The component that defines the input prompt format passed into an LLM node. Supports prompt variants for A/B testing.
 - **Content Safety & Responsible AI (Azure Shield + Document Icons):** Ensures your flows follow ethical and secure practices. This includes moderation filters, content controls, and transparency safeguards.
   
-## Getting Started with the Lab
+## 🚀 Getting Started with the Lab
 
 We've prepared a seamless environment for you to explore and learn about the connection between creating, evaluating, and fine-tuning AI models using Prompt Flow. Let's begin by making the most of this experience:
 
-## Accessing Your Lab Environment
+## 🔑 Accessing Your Lab Environment
 
 Once you're ready to dive in, your **Virtual Machine** and **Guide** will be right at your fingertips within your web browser.
 
  ![](./media/labvm-1.png)
 
-## Virtual Machine & Lab Guide
+## 🖥️ Virtual Machine & Lab Guide
 
 Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
 
-## Exploring Your Lab Resources
+## 📚 Exploring Your Lab Resources
 
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
  ![](./media/exp-res-1211.png)
 
-## Utilizing the Split Window Feature
+## 🪟 Utilizing the Split Window Feature
 
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
 
  ![](./media/guide2-1911.png)
 
-## Managing Your Virtual Machine
+## 🛠️ Managing Your Virtual Machine
 
 Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
 
    ![Manage Your Virtual Machine](./media/develop-ai-overview-5.png)
 
-## Lab Guide Zoom In/Zoom Out
+## 🔎 Lab Guide Zoom In/Zoom Out
 
 To adjust the zoom level for the environment page, click the **A↕: 100%** icon located next to the timer in the lab environment.
 
 ![Zoom In/Zoom Out](./media/lab1-z.png)  
 
-## Let's Get Started with Azure Portal
+## 🌐 Let's Get Started with Azure Portal
 
 1. On your virtual machine, click on the Azure Portal icon as shown below:
 
@@ -106,11 +109,15 @@ To adjust the zoom level for the environment page, click the **A↕: 100%** icon
 
        ![Enter Your Password](./media/password-1211.png)
 
-1. When prompted to **Stay signed in?**, click **Yes**.
+1. When prompted to **Stay signed in?**, click **NO**.
+
+   ![stay signed in image](./media/staysigned.png)
 
 1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Maybe later** to skip the tour.
 
-## Support Contact
+   ![AI tour](./media/popup.png)
+
+## 📞 Support Contact
 
 The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
 
@@ -123,4 +130,4 @@ Now, click on **Next** from the lower right corner to move on to the next page.
 
    ![Launch Azure Portal](./media/d47.png)
 
-### Happy Learning!!
+### 🎉 Happy Learning!!

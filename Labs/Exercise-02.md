@@ -1,12 +1,16 @@
-# Lab 02: Building and Customizing Prompt Flows
+# 🚀 Lab 02: Building and Customizing Prompt Flows
 
-#### Estimated Duration: 90 Minutes
+#### ⏱️ Estimated Duration: 90 Minutes
 
-## Overview
+## 💡 Lab Scenario
+
+At Contoso, the next phase of the AI initiative requires the development team to build practical prompt flows that can handle real customer interactions. In this hands-on lab, you'll initialize a Prompt Flow project, create and customize prompts tailored to the retail business needs, and develop flows that integrate LLM and Prompt tools. By the end of this lab, you'll have a working prototype that demonstrates the power of customized prompts and flow orchestration for automating customer support workflows.
+
+## 📘 Overview
 
 In this lab, you will gain hands-on experience in initializing a Prompt Flow project in Microsoft Foundry, setting up the necessary environment to begin developing, testing, and refining AI applications. You will create and customize prompts within Microsoft Foundry's Prompt Flow. Starting with the creation of a new flow, you will add and configure the Prompt tool and develop a flow incorporating LLM (Large Language Model) and Prompt tools. By authoring a sample flow and running it with custom inputs, you'll learn how to monitor flow execution and evaluate outputs, thereby understanding the practical steps involved in developing, testing, and refining AI-driven workflows.
 
-## Objectives
+## 🎯 Objectives
 
 In this lab, you will perform the following:
 
@@ -14,7 +18,7 @@ In this lab, you will perform the following:
 - Task 2: Create and Customize Prompts
 - Task 3: Develop a Flow with LLM and Prompt Tools
 
-### Task 1: Initialize a Prompt Flow Project
+### 1️⃣ Task 1: Initialize a Prompt Flow Project
 
 In this task, you will set up a structured environment to manage and streamline prompt-based AI tasks. This involves creating a project directory, configuring essential files and dependencies, and establishing a workflow for designing, testing, and refining prompts. Organizing prompts, data, and evaluation metrics in one place ensures consistency and efficiency, helping you optimize prompt performance and achieve better results with your AI models.
 
@@ -71,6 +75,8 @@ In this task, you will set up a structured environment to manage and streamline 
 
     ![](./media/4-7-25-l2-7.png)
 
+    > **Note:** If you are redirected to the Microsoft new portal, click on the **toggle** button to switch back to the old portal, close the popup then select the hub **modelhub<inject key="DeploymentID" enableCopy="false"/>** that you created.
+
 1. On the **Microsoft Foundry** portal, under Hub **Overview (1)**, scroll down and select **+ New project (2)**.
 
     ![](./media/L2T1S8-1911.png)
@@ -94,13 +100,11 @@ In this task, you will set up a structured environment to manage and streamline 
 > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 <validation step="85914800-05d0-40dd-80ca-292f5415040a" />
 
-### Task 2: Create and Customize Prompts
+### 2️⃣ Task 2: Create and Customize Prompts
 
 In this task, you will focus on creating and customizing prompts by designing targeted and purposeful questions or statements that guide the LLM toward generating accurate and useful responses. You'll define clear objectives, consider the intended audience, and use precise language to ensure relevance. Customization will help align prompts with specific contexts or use cases, improving engagement and effectiveness in applications like education, customer support, and AI-driven workflows.
 
-1. From the left navigation menu, under **My assets**, select **Model + endpoints (1)**.
-
-1. On the **Manage deployments of your models and services**, under **Model deployments** tab, select **+ Deploy model (2)** and then select **Deploy base model (3)** from the dropdown.
+1. From the left navigation menu, under **My assets**, select **Model + endpoints (1)**. On the **Manage deployments of your models and services** page, under the **Model deployments** tab, select **+ Deploy model (2)** and then select **Deploy base model (3)** from the dropdown.
 
    ![](./media/L2T2S2-1911.png)
 
@@ -152,7 +156,7 @@ In this task, you will focus on creating and customizing prompts by designing ta
 > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 <validation step="97dc69b4-95e6-4d6b-9b64-b143ebe6290b" />
 
-### Task 3: Develop a Flow with LLM and Prompt Tools
+### 3️⃣ Task 3: Develop a Flow with LLM and Prompt Tools
 
 In this task, you will develop a flow with Large Language Models (LLMs) and prompt tools by defining a clear objective, selecting the appropriate LLM, and crafting structured prompts to guide the model’s responses. You will iteratively refine these prompts based on the output to ensure accuracy and relevance. Prompt tools will help you manage and optimize the interaction, enabling efficient use of LLMs for tasks such as content creation, data analysis, or automated support.
 
@@ -179,7 +183,7 @@ In this task, you will develop a flow with Large Language Models (LLMs) and prom
     ![](./media/compute-session-running.png)
     
     
-1. Once the compute session is complete, click the **play** button inside the **joke** node to run the **joke node** first, then run the **echo node**.
+1. Once the compute session is starts running, click the **play** button inside the **joke** node to run the **joke node** first, then run the **echo node**.
 
     ![](./media/L2T3S6-1211.png)
 
@@ -201,13 +205,13 @@ In this task, you will develop a flow with Large Language Models (LLMs) and prom
 
     >**Note:** The output may vary as the joke node generates a random joke based on the input topic, which in this case is "Apple". You can experiment with different inputs to see how the output changes.
 
-1. From the top menu, select **+ Prompt (1)** to add the Prompt tool to your flow, give the name of the flow as **modelflow (2)**, and select **Add (3)**.
+1. From the top menu, select **+ Prompt (1)** to add the Prompt tool to your flow, give the name of the flow as **modelflow (2)** and select **Add (3)**.
 
    ![](./media/gpt-4-demo17.png)
 
    ![](./media/gpt-4-demo(15).png)
 
-1. Add this code inside the **model flow** prompt tool **(1)**, and select **Validate and parse input (2)**
+1. Add this code inside the **model flow** prompt tool **(1)** and select **Validate and parse input (2)**
 
    ```jinja
    Welcome to Joke Bot !
@@ -245,7 +249,7 @@ In this task, you will develop a flow with Large Language Models (LLMs) and prom
 
    ![](./media/output1-2.png)
    
-## Summary
+## ✅ Summary
 
 In this lab, you have completed the following tasks:
 
@@ -253,6 +257,6 @@ In this lab, you have completed the following tasks:
 - Created and Customized Prompts
 - Developed a Flow with LLM and Prompt Tools
 
-### You have successfully completed the lab. Click on **Next >>** to proceed with the next Lab.
+### 🎉 You have successfully completed the lab. Click on **Next >>** to proceed with the next Lab.
 
 ![](./media/9-7-next.png)

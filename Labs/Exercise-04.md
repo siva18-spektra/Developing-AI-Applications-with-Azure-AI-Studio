@@ -1,20 +1,24 @@
-# Lab 04: Fine-Tuning Prompts for Optimal Performance
+# 🚀 Lab 04: Fine-Tuning Prompts for Optimal Performance
 
-#### Estimated Duration: 120 Minutes
+#### ⏱️ Estimated Duration: 120 Minutes
 
-## Overview
+## 💡 Lab Scenario
+
+At Contoso, the initial AI system is working, but the quality of responses for complex customer queries could be better. In this lab, you'll take on the role of a prompt engineer, systematically fine-tuning prompts to improve model performance. You'll experiment with different prompt variations, compare results, and measure performance improvements. Finally, you'll optimize the flow for production deployment, ensuring the system can handle real-world customer traffic efficiently and reliably.
+
+## 📘 Overview
 
 In this lab, you will explore fine-tuning prompts for optimal performance, learning how to craft precise and effective input queries that maximize the accuracy, relevance, and efficiency of AI generated responses. 
-
+s
 You will experiment with structuring prompts to guide AI behavior, incorporating context, constraints, and desired output formats to achieve more consistent results. By iterating on prompt design and analyzing AI responses, you will develop best practices for refining inputs to suit various use cases, from summarization and data extraction to creative writing and technical problem-solving.
  
-## Objectives
+## 🎯 Objectives
 
 In this lab, you will perform the following:
 - Task 1: Perform Iterative Prompt Tuning and Variant Comparison
 - Task 2: Optimize Flow Performance for Production
 
-### Task 1: Perform Iterative Prompt Tuning and Variant Comparison 
+### 1️⃣ Task 1: Perform Iterative Prompt Tuning and Variant Comparison 
 
 In this task, you will refine model responses by adjusting prompts over successive iterations. This process enables systematic evaluation and comparison of output variants, helping to ensure that each iteration leads to improved performance and more accurate, relevant responses.
 
@@ -32,11 +36,11 @@ In this task, you will refine model responses by adjusting prompts over successi
 
       ![](./media/image-366.png)
 
-1. Scroll down to **classify_with_llm (1)** node and select the following:
+1. Scroll down to **classify_with_llm** node and select the following:
 
-    - Connection: Select the connection **ai-modelhub<inject key="DeploymentID" enableCopy="false"/>_aoai (2)**
+    - Connection: Select the connection **ai-modelhub<inject key="DeploymentID" enableCopy="false"/>_aoai (1)**
 
-    - deployment_name: **gpt-4.1 (3)**
+    - deployment_name: **gpt-4.1 (2)**
 
       ![](./media/L4T1S4-1211.png)
    
@@ -211,7 +215,7 @@ In this task, you will refine model responses by adjusting prompts over successi
 
     ![](./media/lab1-04-17.png)
 
-     >**Note:** It might take 10-15 minutes to start the session. Wait till the compute session starts.    
+     >**Note:** It might take 3-5 minutes to start the session. Wait till the compute session starts.    
 
 1. Click the **Validate and parse input** button **(1)** and for the input value, select **${classify_with_llm.output} (2)** 
 
@@ -237,7 +241,7 @@ In this task, you will refine model responses by adjusting prompts over successi
 
    ![](./media/image-40.png)
   
-### Task 2: Optimize Flow Performance for Production 
+### 2️⃣ Task 2: Optimize Flow Performance for Production 
 
 In this task, you will analyze and refine workflow processes to ensure maximum efficiency and minimal downtime. This includes identifying bottlenecks, applying best practices, and leveraging advanced tools and technologies to streamline operations. You will also implement continuous monitoring and iterative improvements to maintain high performance and adapt to evolving production demands, ultimately enhancing productivity and reducing operational costs.
 
@@ -316,6 +320,8 @@ In this task, you will analyze and refine workflow processes to ensure maximum e
 
    ![](./media/L4T2S18-1211.png)
 
+   >**Note:** In the Output section, if the outputs are already added, please check for the **values** and **Names** and then select **Save**.
+
 1. Select **Evaluate (1)** and then select **Custom evaluation (2)**.
 
    ![](./media/lab1-04-19.png)
@@ -370,12 +376,12 @@ In this task, you will analyze and refine workflow processes to ensure maximum e
 
 1. After you identify which variant is the best by going to the Visualize outputs section, compare the predicted summaries from each variant against the expected summaries using metrics like classification accuracy. Review how closely the AI-generated summaries match the actual ones, and determine which variant performs more consistently. Once the better variant is identified, go back to the flow authoring page, open the summarize_text_content node, click Show variants, and set the best-performing variant as the default for that node.
 
-## Summary
+## ✅ Summary
 
 In this lab, you have completed the following tasks:
 - Performed Iterative Prompt Tuning and Variant Comparison 
 - Optimized Flow Performance for Production
 
- ### You have successfully completed the lab. Click on **Next >>** to proceed with the next Lab.
+ ### 🎉 You have successfully completed the lab. Click on **Next >>** to proceed with the next Lab.
 
 ![](./media/9-7-next.png)

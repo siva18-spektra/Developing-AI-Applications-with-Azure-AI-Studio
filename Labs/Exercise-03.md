@@ -1,18 +1,22 @@
-# Lab 03: Evaluation Flow Setup
+# 🚀 Lab 03: Evaluation Flow Setup
 
-#### Estimated Duration: 90 Minutes
+#### ⏱️ Estimated Duration: 90 Minutes
 
-## Overview
+## 💡 Lab Scenario
+
+At Contoso, the retail AI system has been developed and deployed, but the team needs to validate its performance before rolling it out to production. In this lab, you'll set up comprehensive evaluation flows—both manual and automated—to assess how well the system handles real customer queries and recommendations. By combining human expert review with automated metrics, you'll ensure the AI system meets Contoso's quality standards and is ready for customer-facing operations.
+
+## 📘 Overview
 
 In this lab, you will set up an automated evaluation pipeline using built-in evaluation metrics and configure manual evaluation for deeper insights. You will begin by leveraging built-in metrics such as accuracy, precision, recall, and F1 score to assess model performance automatically. Then, you will set up a manual evaluation process where human reviewers can provide qualitative feedback on model outputs. This hands-on lab will help you understand the integration of automated and manual evaluation methods to improve model accuracy and reliability.
 
-## Objectives
+## 🎯 Objectives
 
 In this lab, you will perform the following:
 - Task 1: Setup Manual Evaluation
 - Task 2: Set up Automated Evaluation with Built-in Evaluation Metrics
 
-### Task 1: Setup Manual Evaluation
+### 1️⃣ Task 1: Setup Manual Evaluation
 
 In this task, you will set up a manual evaluation process to assess model performance. This involves defining evaluation criteria, collecting human feedback, and analyzing results to measure accuracy and identify potential biases. 
 
@@ -56,7 +60,7 @@ In this task, you will set up a manual evaluation process to assess model perfor
 
    ![](./media/manual-1.png)
 
-### Task 2: Setup Automated Evaluation with Built-in Evaluation Metrics
+### 2️⃣ Task 2: Setup Automated Evaluation with Built-in Evaluation Metrics
 
 In this task, you will configure automated evaluation using built-in metrics to measure model performance quickly and accurately.
 
@@ -144,17 +148,16 @@ In this task, you will configure automated evaluation using built-in metrics to 
 
     ![](./media/4-7-25-l3-11.png)
 
-
-1. Navigate to **Data (1)** tab from the top menu to view the **Detailed metrics results (2)**.    
+1. Navigate to **Data** tab from the top menu to view the **Detailed metrics results**.    
 
     ![](./media/4-7-25-l3-12.png)
 
-## Summary
+## ✅ Summary
 
 In this lab, you have completed the following tasks:
 - Set Up Manual Evaluation
 - Set up Automated Evaluation with Built-in Evaluation Metrics
 
-### You have successfully completed the lab. Click on **Next >>** to proceed with the next Lab.
+### 🎉 You have successfully completed the lab. Click on **Next >>** to proceed with the next Lab.
 
 ![](./media/9-7-next.png)

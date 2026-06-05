@@ -1,26 +1,28 @@
-# Lab 05: Implementing Chat Flow and Tool Integration
+# 🚀 Lab 05: Implementing Chat Flow and Tool Integration
 
-#### Estimated Duration: 60 Minutes
+#### ⏱️ Estimated Duration: 60 Minutes
 
-## Overview
+## 💡 Lab Scenario
 
-In this lab, you will be designing and implementing a chat flow to interact with a deployed language model. You will start by creating a basic chat flow using Microsoft Foundry, which includes integrating inputs, an LLM node, and configuring the output to reflect chat responses. You will then test the chat flow, ensure it functions correctly, and deploy it to a production environment. 
+You are a prompt engineer at Contoso Travel, building a conversational travel assistant using Microsoft Foundry. In this lab, you will create a working chat flow connected to a deployed language model, validate it with sample user queries, and publish the flow so it can be consumed as a chat endpoint.
+
+## 🧭 Overview
+
+In this lab, you will be designing and implementing a chat flow to interact with a deployed language model. You will start by creating a basic chat flow using Microsoft Foundry, which includes integrating inputs, an LLM node, and configuring the output to reflect chat responses. You will then test the chat flow, ensure it functions correctly, and deploy it to a production environment.
 
 The final steps involve verifying the deployment, testing the deployed flow with sample queries, and exploring options for integrating the chat flow into applications as a custom copilot.
 
-## Objectives
+## 🎯 Objectives
 
 In this lab, you will perform the following:
 - Task 1: Design and Implement a Chat Flow
 - Task 2: Use LLM and Prompt Tools in Flows
 
-### Task 1: Design and Implement a Chat Flow
+### 1️⃣ Task 1: Design and Implement a Chat Flow
 
 In this task, you will design and implement a chat flow using Microsoft Foundry to interact with a deployed language model. You will test its functionality to ensure accurate and relevant responses and prepare the chat flow for deployment in a production environment.
 
-1. From the left navigation menu, under **My assets**, select **Model + endpoints (1)**.
-
-1. On the **Manage deployments of your models and services**, under **Model deployments** tab, select **+ Deploy model (2)** and then select **Deploy base model (3)** from the dropdown.
+1. From the left navigation menu, under **My assets**, select **Model + endpoints (1)**. On the **Manage deployments of your models and services** page, under the **Model deployments** tab, select **+ Deploy model (2)** and then select **Deploy base model (3)** from the dropdown.
 
    ![](./media/L5T1S2-1911.png)
 
@@ -39,6 +41,7 @@ In this task, you will design and implement a chat flow using Microsoft Foundry 
    - Model version: **2025-04-14 (Default) (3)**
    - Connected AI resource: select **ai-modelhub<inject key="DeploymentID" enableCopy="false"/> (4)**
    - Tokens per Minute Rate Limit: **10K (5)**
+      > **Note:** Use the &rarr; (right arrow) key on the keyboard to set the Enqueued Tokens (Limit) to 10k.
    - Content Filter: **DefaultV2 (6)**
    - Select **Deploy (7)**
 
@@ -148,7 +151,7 @@ In this task, you will design and implement a chat flow using Microsoft Foundry 
 
      ![](./media/L5T1S17-1211.png)
    
-### Task 2: Use LLM and Prompt Tools in Flows
+### 2️⃣ Task 2: Use LLM and Prompt Tools in Flows
 
 In this task, you will use the chat window to test the developed flow by leveraging built-in LLM and prompt tools within Microsoft Foundry. This will help you validate the flow's behavior, experiment with prompt tuning, and ensure the language model responds accurately within the defined interaction patterns.
 
@@ -222,12 +225,12 @@ In this task, you will use the chat window to test the developed flow by leverag
 > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 <validation step="6fd9456e-0099-45f5-af25-0953d6ef0695" />
 
-## Summary
+## ✅ Summary
 
 In this lab, you have completed the following tasks:
 - Designed and Implemented a Chat Flow
 - Used LLM and Prompt Tools in Flows
 
-### You have successfully completed the lab. Click on **Next >>** to proceed with the next Lab.
+### 🎉 You have successfully completed the lab. Click on **Next >>** to proceed with the next Lab.
 
 ![](./media/9-7-next.png)
